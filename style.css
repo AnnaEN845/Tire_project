@@ -53,13 +53,16 @@ header {
 .logoImg{
   width: 15%;
   background-color: white;
+  margin-top: 25px;
+  /* margin-bottom: 20px; */
+}
+.iconAttribution{
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  /* margin: 0; */
 }
 
-.content{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  text-align: center;
-}
 /* footer all pages */
 .footer {
   padding-top: 1.25rem;
@@ -76,7 +79,23 @@ header {
 
 
 /* home page */
+.content{
+  padding-top: 0;
+  padding-bottom: 1.25rem;
+  text-align: center;
+}
+
+.bigImgSection{
+  display: flex;
+}
 
 .homePageImg{
-  width: 50%;
+width: 100%;
+height: 400px;
+}
+
+.discription{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
 }
