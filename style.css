@@ -63,6 +63,12 @@ header {
   /* margin: 0; */
 }
 
+.iconAttrLink{
+  color: white;
+}
+.iconAttrLink :hover{
+  color: blue;
+}
 /* footer all pages */
 .footer {
   padding-top: 1.25rem;
@@ -98,4 +104,9 @@ height: 400px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
+}
+
+/* Shop */
+.shopImage{
+  width: 95%;
 }
