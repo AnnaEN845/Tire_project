@@ -6,6 +6,7 @@ body {
 article {
   display: flex;
   align-items: center;
+  height: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
   background-image: url('././Tires_photo/Science_goodyear_163751952.jpg');
